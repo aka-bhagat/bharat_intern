@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 10px 20px;
+    background-blend-mode: multiply;
+    background-color: black;
+   
+}
+
+
+.logo {
+    width: 130px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    
+   
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+.hero {
+    position: relative;
+    background-image: url("netflix_background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: no-repeat;
+    background-blend-mode: multiply;
+    background-color: grey;
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    background: rgba(0, 0, 0, );
+}
+
+.content {
+    padding: 20px;
+    font-size: 30px;
+
+    
+}
+
+.btn {
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    
+}
+.btn:hover{
+    background-color: darkred;
+}
+
+.featured {
+    padding: 40px 0;
+    text-align: center;
+    background: black;
+    color: white;
+    
+}
+
+.featured h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.featured-list {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    margin: 0 30px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.item :hover{
+    transform: scale(1.5);
+    z-index: 2;
+    box-shadow: 0 4px 17px rgba(0,0,0,0.35);
+
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
